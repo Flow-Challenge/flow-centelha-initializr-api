@@ -1,10 +1,10 @@
-###
+### Simple hello world
 GET http://localhost:5000/hello
 
-###
+### Hello with param
 GET http://localhost:5000/hello?name=Flask-APP
 
-###
+### Call Flow
 POST http://localhost:5000/call-flow
 content-type: application/json
 
